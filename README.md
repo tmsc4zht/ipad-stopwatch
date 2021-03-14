@@ -1,4 +1,4 @@
-# ipad-stopwatch
+# iPad stopwatch
 
 ## Build Setup
 
