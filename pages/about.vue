@@ -1,5 +1,11 @@
 <template>
-  <div class="flex h-screen w-screen bg-gray-200 relative">
+  <div class="relative">
+    <div>
+      <div><h1>iPad stopwatch</h1></div>
+      <div>
+        <h2><a href="/credits.txt">Credits</a></h2>
+      </div>
+    </div>
     <nuxt-link to="/">
       <svg
         class="h-10 w-10 absolute top-0 right-0 mt-2 mr-2"
