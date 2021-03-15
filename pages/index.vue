@@ -1,6 +1,22 @@
 <template>
-  <div class="flex h-screen w-screen bg-gray-200" @click="touch()">
+  <div class="flex h-screen w-screen bg-gray-200 relative" @click="touch()">
     <div class="m-auto text-6xl">{{ (elapsedTime / 1000).toFixed(3) }}</div>
+    <nuxt-link to="/about">
+      <svg
+        class="h-10 w-10 absolute top-0 right-0 mt-2 mr-2"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+    </nuxt-link>
   </div>
 </template>
 
