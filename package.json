@@ -9,7 +9,8 @@
     "generate": "nuxt-ts generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style"
+    "lint": "yarn lint:js && yarn lint:style",
+    "create-disclaimer": "yarn licenses generate-disclaimer > static/credits.txt"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
