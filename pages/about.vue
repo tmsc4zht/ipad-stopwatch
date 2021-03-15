@@ -1,9 +1,19 @@
 <template>
   <div class="relative">
-    <div>
-      <div><h1>iPad stopwatch</h1></div>
-      <div>
-        <h2><a href="/credits.txt">Credits</a></h2>
+    <!-- main content-->
+    <div class="container mx-auto">
+      <h1 class="text-2xl mb-2">iPad stopwatch</h1>
+      <div class="mb-2">
+        <h2 class="text-lg">About</h2>
+        <p>A stopwatch click or tap to start, stop and reset.</p>
+      </div>
+      <div class="mb-2">
+        <h2 class="text-lg">Auther</h2>
+        <p>tmsc4zht(@tmsc4zht)</p>
+      </div>
+      <div class="mb-2">
+        <h2 class="text-lg">Acknowledgements</h2>
+        <p><a class="underline" href="/credits.txt">Credits</a></p>
       </div>
     </div>
     <nuxt-link to="/">
