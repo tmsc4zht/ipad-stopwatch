@@ -25,7 +25,7 @@
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.2",
-    "heroicons": "^1.0.1",
+    "heroicons": "^1.0.2",
     "nuxt": "^2.15.6"
   },
   "devDependencies": {
